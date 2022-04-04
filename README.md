@@ -34,7 +34,7 @@ Compiling your contracts...
 
   Contract: Voting
     Testing OnlyOwner
-      ✓ onlyOwner must be able to addvoter (966ms)
+      ✓ onlyOwner must be able to addvoter (966ms) <br>
       ✓ onlyOwner must be able to startVotingSession (132ms)
       ✓ onlyOwner must be able to endVotingSession (112ms)
       ✓ onlyOwner must be able to tallyVotes (114ms)
