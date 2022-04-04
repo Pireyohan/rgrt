@@ -10,10 +10,8 @@ Network Info
 > port:    8555
 > network: soliditycoverage
 
-
 Instrumenting for coverage...
 =============================
-
 > Voting.sol
 
 Compiling your contracts...
@@ -25,27 +23,20 @@ Compiling your contracts...
 > Compiled successfully using:
    - solc: 0.8.12+commit.f00d7308.Emscripten.clang
 
-
-Compiling your contracts...
-===========================
-> Everything is up to date, there is nothing to compile.
-
-
-
-  Contract: Voting  <br>
-    Testing OnlyOwner <br>
+  <u>Contract: Voting </u> <br>
+                   <u>Testing OnlyOwner</u> <br>
       ✓ onlyOwner must be able to addvoter (966ms) <br>
       ✓ onlyOwner must be able to startVotingSession (132ms) <br>
       ✓ onlyOwner must be able to endVotingSession (112ms) <br>
       ✓ onlyOwner must be able to tallyVotes (114ms) <br>
       ✓ onlyOwner must be able to StartProposalRegistering (92ms)  <br>
       ✓ onlyOwner must be able to endProposalsRegistering (102ms)    <br>
-    Testing OnlyVoter <br>
+                    <u>Testing OnlyVoter </u><br>
       ✓ onlyVoters must be able to getVoter <br>
       ✓ onlyVoters must be able to setVote (95ms) <br>
       ✓ onlyVoters must be able to getOneProposal <br>
       ✓ onlyVoters must be able to addProposal (84ms) <br>
-    Testing each requirement  <br>
+                    <u>Testing each requirement</u>  <br>
       ✓ onlyOwner must add voters only during RegisteringVoters state (170ms)  <br>
       ✓ voter must be registered only once (150ms)  <br>
       ✓ voter must add proposals only during ProposalsRegistration state (135ms)  <br>
@@ -57,32 +48,32 @@ Compiling your contracts...
       ✓ voting session must start after end of registering proposals (81ms) <br>
       ✓ ending voting session must start during voting session (72ms) <br>
       ✓ tally votes must start after ending voting session (70ms) <br>
-    Testing Events <br>
+                     <u>Testing Events</u> <br>
       ✓ must emit VoterRegistered event (193ms) <br>
       ✓ must emit ProposalRegistered event (222ms) <br>
       ✓ must emit Voted event (347ms) <br>
-    Testing WorkflowStatus Events  <br>
+                     <u>Testing WorkflowStatus Events</u>  <br>
       ✓ must emit WorkflowStatus event to starting proposal registering (40ms) <br>
       ✓ must emit  WorkflowStatus event to ending proposal registering (38ms) <br>
       ✓ must emit WorkflowStatus event to starting voting session (40ms) <br>
       ✓ must emit WorkflowStatus event to ending voting session (43ms) <br>
       ✓ must emit WorkflowStatus event to count in endingSession (47ms) <br>
-    Testing Registering Voter <br>
+                     <u>Testing Registering Voter<u> <br>
       ✓ Registering voter (211ms) <br>
-    Testing Registering Proposals <br>
+                     <u>Testing Registering Proposals</u> <br>
       ✓ added proposal in arrayPropo (80ms) <br>
       ✓ added lot of proposal in arrayPropo (607ms) <br>
-    Testing State Change <br>
+                     Testing State Change</u> <br>
       ✓ must start with RegisteringVoters status <br>
       ✓ must change to ProposalsRegistrationStarted status (63ms) <br>
       ✓ must change to ProposalsRegistrationEnded status (57ms) <br>
       ✓ must change to VotingSessionStarted status (60ms) <br>
       ✓ must change to VotingSessionEnded status (63ms) <br>
-    Validation voting phase <br>
+                    <u> Validation voting phase</u> <br>
       ✓ should save the proposalId that the voter has chosen (179ms) <br>
       ✓ should save Voter has voted or not (73ms) <br>
       ✓ should increment proposal vote count (101ms) <br>
-    Validate Tallying phase <br>
+                    <u> Validate Tallying phase</u> <br>
       ✓ Should tallyVotes (775ms) <br>
 
 
