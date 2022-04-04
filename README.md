@@ -69,11 +69,11 @@ Compiling your contracts...
       ✓ must change to ProposalsRegistrationEnded status (57ms) <br>
       ✓ must change to VotingSessionStarted status (60ms) <br>
       ✓ must change to VotingSessionEnded status (63ms) <br>
-                    ** Validation voting phase** <br>
+                    **Validation voting phase** <br>
       ✓ should save the proposalId that the voter has chosen (179ms) <br>
       ✓ should save Voter has voted or not (73ms) <br>
       ✓ should increment proposal vote count (101ms) <br>
-                    ** Validate Tallying phase** <br>
+                    **Validate Tallying phase** <br>
       ✓ Should tallyVotes (775ms) <br>
 
 
